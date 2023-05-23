@@ -17,7 +17,7 @@ int main(){
   cin >> target;
   int start = 0, end = n-1, mid;
   bool found = false;
-  while(satrt<=end){
+  while(start<=end){
     mid = (start+end)/2;
     if(arr[mid] == target){
       found = true;
